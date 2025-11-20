@@ -1,0 +1,70 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/ExpressionsTest.java",
+      "testCases": [
+        {
+          "methodName": "returnBooleanTest1",
+          "label": "Verify returnBoolean returns true for true input",
+          "description": "Checks that returnBoolean(true) returns true."
+        },
+        {
+          "methodName": "returnBooleanTest2",
+          "label": "Verify returnBoolean returns false for false input",
+          "description": "Checks that returnBoolean(false) returns false."
+        },
+        {
+          "methodName": "returnNotTest1",
+          "label": "Verify returnNot negates true",
+          "description": "Checks that returnNot(true) returns false."
+        },
+        {
+          "methodName": "returnNotTest2",
+          "label": "Verify returnNot negates false",
+          "description": "Checks that returnNot(false) returns true."
+        },
+        {
+          "methodName": "returnAndTest1",
+          "label": "Verify returnAnd true && true returns true",
+          "description": "Checks that returnAnd(true, true) returns true."
+        },
+        {
+          "methodName": "returnAndTest2",
+          "label": "Verify returnAnd false && true returns false",
+          "description": "Checks that returnAnd(false, true) returns false."
+        },
+        {
+          "methodName": "returnAndTest3",
+          "label": "Verify returnAnd false && false returns false",
+          "description": "Checks that returnAnd(false, false) returns false."
+        },
+        {
+          "methodName": "returnAndTest4",
+          "label": "Verify returnAnd false && true returns false (duplicate case)",
+          "description": "Checks that returnAnd(false, true) returns false."
+        },
+        {
+          "methodName": "returnOrTest1",
+          "label": "Verify returnOr true || true returns true",
+          "description": "Checks that returnOr(true, true) returns true."
+        },
+        {
+          "methodName": "returnOrTest2",
+          "label": "Verify returnOr true || false returns true",
+          "description": "Checks that returnOr(true, false) returns true."
+        },
+        {
+          "methodName": "returnOrTest3",
+          "label": "Verify returnOr false || true returns true",
+          "description": "Checks that returnOr(false, true) returns true."
+        },
+        {
+          "methodName": "returnOrTest4",
+          "label": "Verify returnOr false || false returns false",
+          "description": "Checks that returnOr(false, false) returns false."
+        }
+      ]
+    }
+  ]
+}
